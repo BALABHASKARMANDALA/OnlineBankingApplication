@@ -1,0 +1,679 @@
+INFO  02:17:07 Application started. Press Ctrl+C to shut down.
+INFO  02:17:07 Application started. Press Ctrl+C to shut down.
+INFO  02:17:07 Hosting environment: Development
+INFO  02:17:07 Hosting environment: Development
+INFO  02:17:07 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:17:07 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:22:28 Application started. Press Ctrl+C to shut down.
+INFO  02:22:28 Application started. Press Ctrl+C to shut down.
+INFO  02:22:28 Hosting environment: Development
+INFO  02:22:28 Hosting environment: Development
+INFO  02:22:28 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:22:28 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+ERROR 02:22:52 The view 'Index' was not found. Searched locations: /Views/Login/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 02:22:52 The view 'Index' was not found. Searched locations: /Views/Login/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 02:22:53 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Login/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:22:53 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Login/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:24:18 token not found
+INFO  02:24:31 token not found
+INFO  02:24:54 token not found
+INFO  02:52:00 Application started. Press Ctrl+C to shut down.
+INFO  02:52:00 Application started. Press Ctrl+C to shut down.
+INFO  02:52:00 Hosting environment: Development
+INFO  02:52:00 Hosting environment: Development
+INFO  02:52:00 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:52:00 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:52:21 token not found
+INFO  08:05:47 Application started. Press Ctrl+C to shut down.
+INFO  08:05:47 Application started. Press Ctrl+C to shut down.
+INFO  08:05:47 Hosting environment: Development
+INFO  08:05:47 Hosting environment: Development
+INFO  08:05:47 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:05:47 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:06:14 User Login
+ERROR 08:06:21 An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at BankingClientApplication.Controllers.LoginController.Login(UserDetails user) in F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication\Controllers\LoginController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 08:06:21 An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at BankingClientApplication.Controllers.LoginController.Login(UserDetails user) in F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication\Controllers\LoginController.cs:line 37
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  08:17:11 Application started. Press Ctrl+C to shut down.
+INFO  08:17:11 Application started. Press Ctrl+C to shut down.
+INFO  08:17:11 Hosting environment: Development
+INFO  08:17:11 Hosting environment: Development
+INFO  08:17:11 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:17:11 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:17:46 User Login
+INFO  08:17:59 Productlist getting Displayed
+INFO  10:43:48 Application started. Press Ctrl+C to shut down.
+INFO  10:43:48 Application started. Press Ctrl+C to shut down.
+INFO  10:43:48 Hosting environment: Development
+INFO  10:43:48 Hosting environment: Development
+INFO  10:43:48 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:43:48 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:44:28 User Login
+INFO  10:44:43 Productlist getting Displayed
+INFO  10:56:21 Application started. Press Ctrl+C to shut down.
+INFO  10:56:21 Application started. Press Ctrl+C to shut down.
+INFO  10:56:21 Hosting environment: Development
+INFO  10:56:21 Hosting environment: Development
+INFO  10:56:21 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:56:21 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:56:41 User Login
+INFO  10:56:44 Productlist getting Displayed
+INFO  11:08:45 Application started. Press Ctrl+C to shut down.
+INFO  11:08:45 Application started. Press Ctrl+C to shut down.
+INFO  11:08:45 Hosting environment: Development
+INFO  11:08:45 Hosting environment: Development
+INFO  11:08:45 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  11:08:45 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  11:09:15 User Login
+INFO  11:09:23 Productlist getting Displayed
+INFO  01:48:21 Application started. Press Ctrl+C to shut down.
+INFO  01:48:21 Application started. Press Ctrl+C to shut down.
+INFO  01:48:21 Hosting environment: Development
+INFO  01:48:21 Hosting environment: Development
+INFO  01:48:21 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  01:48:21 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  01:48:49 User Login
+INFO  01:49:05 Productlist getting Displayed
+INFO  02:03:20 Application started. Press Ctrl+C to shut down.
+INFO  02:03:20 Application started. Press Ctrl+C to shut down.
+INFO  02:03:20 Hosting environment: Development
+INFO  02:03:20 Hosting environment: Development
+INFO  02:03:20 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:03:20 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:03:38 User Login
+INFO  02:03:44 Productlist getting Displayed
+ERROR 02:04:16 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Banking_Index.ExecuteAsync() in F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication\Views\Banking\Index.cshtml:line 30
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:04:16 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Banking_Index.ExecuteAsync() in F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication\Views\Banking\Index.cshtml:line 30
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:36:15 Application started. Press Ctrl+C to shut down.
+INFO  02:36:15 Application started. Press Ctrl+C to shut down.
+INFO  02:36:15 Hosting environment: Development
+INFO  02:36:15 Hosting environment: Development
+INFO  02:36:15 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:36:15 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:36:38 User Login
+INFO  02:36:44 Productlist getting Displayed
+INFO  02:43:15 Application started. Press Ctrl+C to shut down.
+INFO  02:43:15 Application started. Press Ctrl+C to shut down.
+INFO  02:43:15 Hosting environment: Development
+INFO  02:43:15 Hosting environment: Development
+INFO  02:43:15 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:43:15 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:43:21 token not found
+INFO  02:43:42 User Login
+INFO  02:43:45 Productlist getting Displayed
+INFO  02:58:57 Application started. Press Ctrl+C to shut down.
+INFO  02:58:57 Application started. Press Ctrl+C to shut down.
+INFO  02:58:57 Hosting environment: Development
+INFO  02:58:57 Hosting environment: Development
+INFO  02:58:57 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:58:57 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  02:59:12 User Login
+INFO  02:59:17 Productlist getting Displayed
+INFO  04:01:31 Application started. Press Ctrl+C to shut down.
+INFO  04:01:31 Application started. Press Ctrl+C to shut down.
+INFO  04:01:31 Hosting environment: Development
+INFO  04:01:31 Hosting environment: Development
+INFO  04:01:31 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  04:01:31 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  04:01:46 User Login
+INFO  04:01:55 Productlist getting Displayed
+INFO  04:40:03 Application started. Press Ctrl+C to shut down.
+INFO  04:40:03 Application started. Press Ctrl+C to shut down.
+INFO  04:40:03 Hosting environment: Development
+INFO  04:40:03 Hosting environment: Development
+INFO  04:40:03 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  04:40:03 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  04:42:18 User Login
+INFO  04:42:28 Productlist getting Displayed
+INFO  04:55:13 Application started. Press Ctrl+C to shut down.
+INFO  04:55:13 Application started. Press Ctrl+C to shut down.
+INFO  04:55:13 Hosting environment: Development
+INFO  04:55:13 Hosting environment: Development
+INFO  04:55:13 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  04:55:13 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  04:55:36 User Login
+INFO  04:55:41 Productlist getting Displayed
+INFO  05:13:22 Application started. Press Ctrl+C to shut down.
+INFO  05:13:22 Application started. Press Ctrl+C to shut down.
+INFO  05:13:22 Hosting environment: Development
+INFO  05:13:22 Hosting environment: Development
+INFO  05:13:22 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  05:13:22 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  05:13:56 User Login
+INFO  05:14:00 Banklist getting Displayed
+INFO  05:14:00 Banklist
+INFO  05:14:00 getting Displayed
+INFO  05:30:00 Application started. Press Ctrl+C to shut down.
+INFO  05:30:00 Application started. Press Ctrl+C to shut down.
+INFO  05:30:00 Hosting environment: Development
+INFO  05:30:00 Hosting environment: Development
+INFO  05:30:00 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  05:30:00 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  05:30:22 User Login
+INFO  05:30:26 Banklist getting Displayed
+INFO  05:31:16 Transfer fund in progess
+INFO  05:38:04 Application started. Press Ctrl+C to shut down.
+INFO  05:38:04 Application started. Press Ctrl+C to shut down.
+INFO  05:38:04 Hosting environment: Development
+INFO  05:38:04 Hosting environment: Development
+INFO  05:38:04 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  05:38:04 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  05:38:26 User Login
+INFO  05:38:29 Banklist getting Displayed
+INFO  06:42:04 Application started. Press Ctrl+C to shut down.
+INFO  06:42:04 Application started. Press Ctrl+C to shut down.
+INFO  06:42:04 Hosting environment: Development
+INFO  06:42:04 Hosting environment: Development
+INFO  06:42:04 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  06:42:04 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  06:42:29 User Login
+INFO  06:42:43 Banklist getting Displayed
+INFO  06:43:08 Transfer fund in progess
+INFO  06:49:33 Application started. Press Ctrl+C to shut down.
+INFO  06:49:33 Application started. Press Ctrl+C to shut down.
+INFO  06:49:33 Hosting environment: Development
+INFO  06:49:33 Hosting environment: Development
+INFO  06:49:33 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  06:49:33 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  06:49:55 User Login
+INFO  06:50:00 Banklist getting Displayed
+INFO  06:50:07 Transfer fund in progess
+INFO  07:00:21 Application started. Press Ctrl+C to shut down.
+INFO  07:00:21 Application started. Press Ctrl+C to shut down.
+INFO  07:00:21 Hosting environment: Development
+INFO  07:00:21 Hosting environment: Development
+INFO  07:00:21 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  07:00:21 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  07:00:38 User Login
+INFO  07:00:42 Banklist getting Displayed
+INFO  07:00:56 Transfer fund in progess
+INFO  07:06:39 Application started. Press Ctrl+C to shut down.
+INFO  07:06:39 Application started. Press Ctrl+C to shut down.
+INFO  07:06:39 Hosting environment: Development
+INFO  07:06:39 Hosting environment: Development
+INFO  07:06:39 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  07:06:39 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  07:06:56 User Login
+INFO  07:06:59 Itemuserid1
+INFO  07:07:00 Banklist getting Displayed
+INFO  07:07:06 Transfer fund in progess
+INFO  07:07:06 userid1
+INFO  07:14:37 Application started. Press Ctrl+C to shut down.
+INFO  07:14:37 Application started. Press Ctrl+C to shut down.
+INFO  07:14:37 Hosting environment: Development
+INFO  07:14:37 Hosting environment: Development
+INFO  07:14:37 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  07:14:37 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  07:14:54 User Login
+INFO  07:14:58 Itemuserid1
+INFO  07:14:58 Banklist getting Displayed
+INFO  07:15:10 Transfer fund in progess
+INFO  07:15:10 userid1
+INFO  07:34:22 Application started. Press Ctrl+C to shut down.
+INFO  07:34:22 Application started. Press Ctrl+C to shut down.
+INFO  07:34:22 Hosting environment: Development
+INFO  07:34:22 Hosting environment: Development
+INFO  07:34:22 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  07:34:22 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  07:34:34 User Login
+INFO  07:35:00 User Login
+INFO  07:35:00 Itemuserid1
+INFO  07:35:00 Banklist getting Displayed
+INFO  07:35:07 Transfer fund in progess
+INFO  07:35:23 Transaction Done
+INFO  07:41:26 Application started. Press Ctrl+C to shut down.
+INFO  07:41:26 Application started. Press Ctrl+C to shut down.
+INFO  07:41:26 Hosting environment: Development
+INFO  07:41:26 Hosting environment: Development
+INFO  07:41:26 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  07:41:26 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  07:41:45 User Login
+INFO  07:41:49 Banklist getting Displayed
+INFO  07:41:56 Transfer fund in progess
+INFO  07:42:09 Transaction Done
+INFO  08:01:59 Application started. Press Ctrl+C to shut down.
+INFO  08:01:59 Application started. Press Ctrl+C to shut down.
+INFO  08:01:59 Hosting environment: Development
+INFO  08:01:59 Hosting environment: Development
+INFO  08:01:59 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:01:59 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:02:13 User Login
+INFO  08:02:18 Banklist getting Displayed
+INFO  08:02:28 Transfer fund in progess
+INFO  08:08:08 Application started. Press Ctrl+C to shut down.
+INFO  08:08:08 Application started. Press Ctrl+C to shut down.
+INFO  08:08:08 Hosting environment: Development
+INFO  08:08:08 Hosting environment: Development
+INFO  08:08:08 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:08:08 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:08:18 User Login
+INFO  08:08:22 Banklist getting Displayed
+INFO  08:08:29 Transfer fund in progess
+INFO  08:08:41 Transaction Done
+INFO  08:08:43 Banklist getting Displayed
+INFO  08:08:47 Getting Transaction details
+INFO  08:17:38 Application started. Press Ctrl+C to shut down.
+INFO  08:17:38 Application started. Press Ctrl+C to shut down.
+INFO  08:17:38 Hosting environment: Development
+INFO  08:17:38 Hosting environment: Development
+INFO  08:17:38 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:17:38 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:17:49 User Login
+INFO  08:17:53 Banklist getting Displayed
+INFO  08:17:59 Transfer fund in progess
+INFO  08:18:12 Transaction Done
+INFO  08:18:14 Banklist getting Displayed
+INFO  08:18:19 Getting Transaction details
+INFO  08:33:25 Application started. Press Ctrl+C to shut down.
+INFO  08:33:25 Application started. Press Ctrl+C to shut down.
+INFO  08:33:25 Hosting environment: Development
+INFO  08:33:25 Hosting environment: Development
+INFO  08:33:25 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:33:25 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:33:36 User Login
+INFO  08:33:41 Banklist getting Displayed
+INFO  08:33:49 Transfer fund in progess
+INFO  08:34:10 Transaction Done
+INFO  08:34:12 Banklist getting Displayed
+INFO  08:34:19 Getting Transaction details
+INFO  08:43:22 Application started. Press Ctrl+C to shut down.
+INFO  08:43:22 Application started. Press Ctrl+C to shut down.
+INFO  08:43:22 Hosting environment: Development
+INFO  08:43:22 Hosting environment: Development
+INFO  08:43:22 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:43:22 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:43:44 User Login
+INFO  08:43:47 Banklist getting Displayed
+INFO  08:43:52 Transfer fund in progess
+INFO  08:44:03 Transaction Done
+INFO  08:44:05 Banklist getting Displayed
+INFO  08:44:10 Getting Transaction details
+INFO  08:48:20 Application started. Press Ctrl+C to shut down.
+INFO  08:48:20 Application started. Press Ctrl+C to shut down.
+INFO  08:48:20 Hosting environment: Development
+INFO  08:48:20 Hosting environment: Development
+INFO  08:48:20 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:48:20 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:48:33 User Login
+INFO  08:48:37 Banklist getting Displayed
+INFO  08:48:42 Transfer fund in progess
+INFO  08:49:03 Transaction Done
+INFO  08:49:05 Banklist getting Displayed
+INFO  08:49:07 Getting Transaction details
+INFO  08:52:38 Application started. Press Ctrl+C to shut down.
+INFO  08:52:38 Application started. Press Ctrl+C to shut down.
+INFO  08:52:38 Hosting environment: Development
+INFO  08:52:38 Hosting environment: Development
+INFO  08:52:38 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:52:38 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  08:52:47 User Login
+INFO  08:52:51 Banklist getting Displayed
+INFO  08:52:57 Transfer fund in progess
+INFO  08:53:05 Transaction Done
+INFO  08:53:07 Banklist getting Displayed
+INFO  08:53:08 Getting Transaction details
+INFO  09:11:35 Application started. Press Ctrl+C to shut down.
+INFO  09:11:35 Application started. Press Ctrl+C to shut down.
+INFO  09:11:35 Hosting environment: Development
+INFO  09:11:35 Hosting environment: Development
+INFO  09:11:35 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  09:11:35 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  09:11:46 User Login
+INFO  09:11:50 Banklist getting Displayed
+INFO  09:11:56 Transfer fund in progess
+INFO  09:12:08 Transaction Done
+INFO  09:12:10 Banklist getting Displayed
+INFO  09:12:12 Getting Transaction details
+INFO  10:01:37 Application started. Press Ctrl+C to shut down.
+INFO  10:01:37 Application started. Press Ctrl+C to shut down.
+INFO  10:01:37 Hosting environment: Development
+INFO  10:01:37 Hosting environment: Development
+INFO  10:01:37 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:01:37 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:01:52 User Login
+INFO  10:02:01 Banklist getting Displayed
+INFO  10:02:08 Transfer fund in progess
+INFO  10:02:22 Transaction Done
+INFO  10:02:26 Banklist getting Displayed
+INFO  10:02:28 Getting Transaction details
+INFO  10:21:30 Application started. Press Ctrl+C to shut down.
+INFO  10:21:30 Application started. Press Ctrl+C to shut down.
+INFO  10:21:30 Hosting environment: Development
+INFO  10:21:30 Hosting environment: Development
+INFO  10:21:30 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:21:30 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:21:48 User Login
+INFO  10:21:56 Banklist getting Displayed
+INFO  10:22:04 Transfer fund in progess
+INFO  10:22:18 Transaction Done
+INFO  10:22:21 Banklist getting Displayed
+INFO  10:22:23 Getting Transaction details
+INFO  10:17:46 Application started. Press Ctrl+C to shut down.
+INFO  10:17:46 Application started. Press Ctrl+C to shut down.
+INFO  10:17:46 Hosting environment: Development
+INFO  10:17:46 Hosting environment: Development
+INFO  10:17:46 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:17:46 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:18:16 User Login
+INFO  10:18:27 Banklist getting Displayed
+INFO  10:18:39 Transfer fund in progess
+INFO  10:18:57 Transaction Done
+INFO  10:19:00 Banklist getting Displayed
+INFO  10:19:10 Getting Transaction details
+INFO  10:22:06 Application started. Press Ctrl+C to shut down.
+INFO  10:22:06 Application started. Press Ctrl+C to shut down.
+INFO  10:22:06 Hosting environment: Development
+INFO  10:22:06 Hosting environment: Development
+INFO  10:22:06 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:22:06 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:22:20 User Login
+INFO  10:22:26 Banklist getting Displayed
+INFO  10:22:34 Transfer fund in progess
+INFO  10:22:45 Transaction Done
+INFO  10:22:47 Banklist getting Displayed
+INFO  10:50:10 Application started. Press Ctrl+C to shut down.
+INFO  10:50:10 Application started. Press Ctrl+C to shut down.
+INFO  10:50:10 Hosting environment: Development
+INFO  10:50:10 Hosting environment: Development
+INFO  10:50:10 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:50:10 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  10:51:49 User Login
+INFO  10:51:54 Banklist getting Displayed
+INFO  10:52:00 Transfer fund in progess
+INFO  10:52:16 Transaction Done
+INFO  10:52:18 Banklist getting Displayed
+INFO  10:52:21 Getting Transaction details
+INFO  11:06:57 Application started. Press Ctrl+C to shut down.
+INFO  11:06:57 Application started. Press Ctrl+C to shut down.
+INFO  11:06:57 Hosting environment: Development
+INFO  11:06:57 Hosting environment: Development
+INFO  11:06:57 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  11:06:57 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  11:07:12 User Login
+INFO  11:07:16 Banklist getting Displayed
+INFO  11:07:23 Transfer fund in progess
+INFO  11:07:40 Transaction Done
+ERROR 11:09:22 An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.FillAsync()
+   at System.Net.Http.HttpConnection.ReadNextResponseHeaderLineAsync(Boolean foldedHeadersAllowed)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at BankingClientApplication.Controllers.BankingController.TransferFund(TransactionDetails transaction) in F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication\Controllers\BankingController.cs:line 115
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:09:22 An unhandled exception has occurred while executing the request.
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillBufferAsync>g__InternalFillBufferAsync|215_0[TReadAdapter](TReadAdapter adap, ValueTask`1 task, Int32 min, Int32 initial)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TReadAdapter](TReadAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.FillAsync()
+   at System.Net.Http.HttpConnection.ReadNextResponseHeaderLineAsync(Boolean foldedHeadersAllowed)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithNtConnectionAuthAsync(HttpConnection connection, HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at BankingClientApplication.Controllers.BankingController.TransferFund(TransactionDetails transaction) in F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication\Controllers\BankingController.cs:line 115
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:17:28 Application started. Press Ctrl+C to shut down.
+INFO  11:17:28 Application started. Press Ctrl+C to shut down.
+INFO  11:17:28 Hosting environment: Development
+INFO  11:17:28 Hosting environment: Development
+INFO  11:17:28 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  11:17:28 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  11:17:40 User Login
+INFO  11:17:43 Banklist getting Displayed
+INFO  11:17:56 Transfer fund in progess
+INFO  11:18:07 Transaction Done
+INFO  11:18:09 Banklist getting Displayed
+INFO  11:18:32 Getting Transaction details
+INFO  11:30:12 Application started. Press Ctrl+C to shut down.
+INFO  11:30:12 Application started. Press Ctrl+C to shut down.
+INFO  11:30:12 Hosting environment: Development
+INFO  11:30:12 Hosting environment: Development
+INFO  11:30:12 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  11:30:12 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  11:30:27 User Login
+INFO  11:30:31 Banklist getting Displayed
+INFO  11:30:39 Transfer fund in progess
+INFO  11:30:50 Transaction Done
+INFO  11:30:52 Banklist getting Displayed
+INFO  11:30:55 Getting Transaction details
+INFO  11:53:49 Application started. Press Ctrl+C to shut down.
+INFO  11:53:49 Application started. Press Ctrl+C to shut down.
+INFO  11:53:49 Hosting environment: Development
+INFO  11:53:49 Hosting environment: Development
+INFO  11:53:49 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  11:53:49 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  11:54:01 User Login
+INFO  11:54:08 Banklist getting Displayed
+INFO  11:54:15 Transfer fund in progess
+INFO  11:54:21 Transaction Done
+INFO  11:54:22 Banklist getting Displayed
+INFO  11:54:25 Getting Transaction details
+INFO  12:02:56 Application started. Press Ctrl+C to shut down.
+INFO  12:02:56 Application started. Press Ctrl+C to shut down.
+INFO  12:02:56 Hosting environment: Development
+INFO  12:02:56 Hosting environment: Development
+INFO  12:02:56 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  12:02:56 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  12:03:14 User Login
+INFO  12:03:18 Banklist getting Displayed
+INFO  12:03:26 Transfer fund in progess
+INFO  12:03:38 Transaction Done
+INFO  12:03:41 Banklist getting Displayed
+INFO  12:03:43 Getting Transaction details
+INFO  06:43:34 Application started. Press Ctrl+C to shut down.
+INFO  06:43:35 Application started. Press Ctrl+C to shut down.
+INFO  06:43:35 Hosting environment: Development
+INFO  06:43:35 Hosting environment: Development
+INFO  06:43:35 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  06:43:35 Content root path: F:\CTS Training\SimulationProject - BankingApplication\BankingClientApplication\BankingClientApplication
+INFO  06:44:06 User Login
+INFO  06:44:30 User Login
+INFO  06:44:33 Banklist getting Displayed
+INFO  06:44:46 Transfer fund in progess
+INFO  06:44:57 Transaction Done
+INFO  06:45:01 Banklist getting Displayed
+INFO  06:45:04 Getting Transaction details

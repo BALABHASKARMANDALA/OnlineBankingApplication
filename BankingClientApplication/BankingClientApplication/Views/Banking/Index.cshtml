@@ -1,0 +1,55 @@
+﻿@model IEnumerable<BankingClientApplication.Models.BankDetails>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn-success" href="@Url.Action("GetTransactionDetails","Banking")">Transaction Details</a>
+</p>
+<p>
+    <a class="btn btn-danger align-content-end" href="@Url.Action("Logout","Login")">Logout</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Balance)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Balance)
+            </td>
+            <td>
+                <a class="btn btn-success" href="@Url.Action("TransferFund","Banking",new { id = item.UserId })">Transfer</a>
+              
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
